@@ -1,0 +1,23 @@
+input, select {
+  width: 100%;
+}
+
+#updateSubmit {
+  background-color: #82DEE4;
+  color: #fff;
+  width: 60%;
+  font-family: 'Bukhari Script', sans-serif;
+  text-transform: capitalize;
+  margin: 0 auto;
+  display: flex;
+}
+
+#selectForm {
+  margin: 10% auto;
+  
+}
+
+
+#outlined-basic {
+  width: 100%;
+}

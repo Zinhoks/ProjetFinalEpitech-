@@ -1,0 +1,180 @@
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 90vh;
+  font-family: 'Bukhari Script', sans-serif;
+  
+}
+.btn {
+    cursor: pointer;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+
+
+.btn-2 {
+  background-image: linear-gradient(to right, #e91111 0%, #8fd3f4 51%, #11000c 100%);
+  
+}
+
+.btn-3 {
+  background-image: linear-gradient(to right, #f37a7a 0%, #8fd3f4 51%, #11000c 100%);
+}
+
+
+
+.btn-5 {
+  background-image: linear-gradient(to right, #f37a7a 0%, #8fd3f4 51%, #11000c 100%);
+}
+
+@media (max-width: 1200px){
+
+.graph-container{
+  display: "inline-block";
+  flex-direction: "column";
+  justify-content: "left";
+}
+
+.graphs{
+  width: 200%;
+  position: relative;
+  display: flex;
+  margin-left: -40%;
+  justify-content: "left";
+  text-align: left;
+}
+
+.top-restaurant-graphs{
+  width: 200%;
+}
+
+.containerbutton{
+  grid-column: 1;
+  flex-direction: column;
+  width: auto;
+  display: "block";
+  justify-content: "center";
+}
+
+.top-users{
+  margin-top: 110px;
+  text-align: left;
+  position:absolute;
+  width: 10rem;
+}
+
+.top-order{
+  margin-top: 500px;
+  position:absolute;
+  width: 10rem;
+  text-align: left;
+}
+
+.top-restaurant{
+  margin-top: 850px;
+  text-align: left;
+  position:absolute;
+  width: 10rem;
+}
+
+.btn {
+cursor: pointer;
+margin: 5px;
+padding: 20px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+}
+
+.top-h1{
+font-size: 1.5rem;
+width: 20rem;
+}
+}  
+
+@media (max-width: 660px){
+.containerbutton{
+  flex-direction: column;
+  width: auto;
+  display: "block";
+  justify-content: "center";
+}
+
+.btn {
+  cursor: pointer;
+  margin: 2px;
+  padding: 10px;
+  text-align: center;
+  text-transform: lowercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+ .top-users{
+  margin-top: 100px;
+  text-align: left;
+  position:absolute;
+  width: 10rem;
+  margin-left: -20%;
+}
+
+.top-order{
+  margin-top: 360px;
+  position:absolute;
+  width: 10rem;
+  text-align: left;
+  margin-left: -20%;
+}
+
+.top-restaurant{
+  margin-top: 600px;
+  text-align: left;
+  position:absolute;
+  width: 10rem;
+  margin-left: -20%;
+}
+
+.top-h1{
+  font-size: 1.2rem;
+  width: 10rem;
+ }
+
+ .graphs{
+  width: 250%;
+}
+
+.top-restaurant-graphs{
+  width: 250%;
+}
+}
